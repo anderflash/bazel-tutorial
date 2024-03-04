@@ -1,6 +1,6 @@
 genrule(
-    name="bar",
-    srcs=[],
-    outs=["bar.txt"],
+    name = "bar",
+    srcs = [],
+    outs = ["bar.txt"],
     cmd = "sleep 2 && echo 'Hello World!!!' > $@",
 )
